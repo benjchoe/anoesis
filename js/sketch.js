@@ -22,7 +22,7 @@ function preload() {
 function setup() {
   var canvas = createCanvas(windowWidth, windowHeight);
   pos = createVector(random(300), random(500)); //starting point
-  vel = createVector(4,4); //velocity
+  vel = createVector(2,2); //velocity
   blendMode1 = [ADD, DARKEST, LIGHTEST, DIFFERENCE, EXCLUSION, SCREEN, OVERLAY, BLEND, HARD_LIGHT, SOFT_LIGHT, DODGE, BURN];
   blendMode2 = [ADD, DARKEST, LIGHTEST, DIFFERENCE, EXCLUSION, SCREEN, OVERLAY, BLEND, HARD_LIGHT, SOFT_LIGHT, DODGE, BURN];
   blendMode3 = [ADD, DARKEST, LIGHTEST, DIFFERENCE, EXCLUSION, SCREEN, OVERLAY, BLEND, HARD_LIGHT, SOFT_LIGHT, DODGE, BURN];
