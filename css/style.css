@@ -15,6 +15,19 @@ img {
   right:20px;
 }
 
+.archive {
+  position:absolute;
+  float:left;
+  bottom:20px;
+  left:30px;
+  opacity: 0.5;
+}
+
+.archive-p {
+  color:white;
+
+}
+
 .logoImg {
   opacity: 0.5;
   border: none;
@@ -25,4 +38,8 @@ img {
 .logoImg:hover,
 .logoImg:focus {
   opacity: 1;
+}
+
+a:hover {
+  color: white;
 }
