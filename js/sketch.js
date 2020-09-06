@@ -31,8 +31,8 @@ function setup() {
   blendMode(random(blendMode2));
   blendMode(random(blendMode3));
   //pos.history = [];
-  //xspeed = 1;
-  //yspeed = 1;
+  xspeed = 1.5;
+  yspeed = 1.5;
   //x = random(width);
   //y = random(height);
 
@@ -92,7 +92,7 @@ function bounceY() {
 }
 
 function resize() {
-  img.style('max-width','400px');
+  img.style('max-height','300px');
   imgW = img.width;
   imgH = img.height;
 }
